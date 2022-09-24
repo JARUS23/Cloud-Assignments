@@ -1,20 +1,19 @@
-# CLOUD ASSIGNMENTS
-This repository contains all the assignments of Cloud Computing.
-Find below branch name and associated assignment with it.
+# Group Assignment - (5 Students) Perfrom project as per the client requirement. | Attached Excel sheet.
 
-## Amazon Web Services (AWS)
-- 1a - Tutorial 1a: Create Linux EC2 Instance | t2 micro & do ssh connection to it.
-- 1b - Tutorial 1b: Create EC2 instance | t2 micro | Windows Connect it using RDP.
-- 2a - Tutorial 2 a): Create amazon linux ec2 instance | t2 micro & install Apache web server into it and Test it for webpage.
-- 2b - Tutorial 2b) Create S3 Bucket & host a static website code into it.
-- 3a - Tutorial 3 a: Connect EC2 Linux | T2 micro with Putty | Windows or Linux Terminal >>> Practice Basic Linux Commands
-- 4 - Tutorial 4: Connect ec2 linux instance from Windows Instance (RDP) from Putty via accessing Bucket having pem key as an object.
-- 5 - Tutorial 5) Associate Elastic IP to EC2 instance. | Release Elastic IP after practice.
-- 6 - Tutorial 6) Launch wordpress website using AWS LightSail Service.
-- 7 - Tutorial 7) Practice Cloud Shell, Run Python Program from Cloud Shell & Create S3 Bucket from Cloud Shell.
-- 9 - Tutorial 9) Create any stack from template in AWS.
-- g1 - Group Assignment - (5 Students) Perfrom project as per the client requirement. | Attached Excel sheet.
-
-## Mircosoft Azure
-- 8a - Tutorial 8 A) Create Virtual Machine from Azure Portal | SSH Connect to it | (Subscription - Azure For Students*)
-- 8b - Tutorial 8 B) Create Virtual Machine from Azure Portal | Do RDP Connection to it | (Subscription - Azure For Students*)
+Task for Root Account - 
+1) Find Attached (excel sheet) requirement from Client and Configure the environment
+2) Assign Task to other employees.
+3) Create and Configure IAM users.
+Other task will be performed by IAM users as per Roles.
+Manager -  Accees EC2, S3                                              
+Developer - Create website Code and host with help of System admin
+Storage Admin - Handle s3, add objects, provide links of objects to developer which will added in index.html            
+System Engineer - Installation of softwares on ec2 instance, s3 configuration
+(HERE, you need to create 4 separate group as per Roles)
+Tips: 
+1) No workloads directly to be accessed by root account. 
+2) Only user, group creation permitted by root account.
+3) IAM users will sign in & perform their task as per role/group setting via assigned policies.
+4) Stop instances if you have performed the task and want to continue later on.
+5) Terminate instances after whole assignment completes.
+Add Screenshots as per your project role only.
